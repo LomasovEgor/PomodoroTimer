@@ -1,4 +1,4 @@
-# pomodoro_timer_coursework
+# pomodoro_timer
 
 ## Project setup
 ```
