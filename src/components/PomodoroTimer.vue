@@ -106,6 +106,7 @@ export default {
         },
         timerEnd() {
             if (this.isWorking) {
+                this.$emit('pause', this.timePass)
                 this.setShortBreak()
                 this.lapCounter++
             } else {
